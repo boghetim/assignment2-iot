@@ -12,7 +12,7 @@ provider "docker" {
 }
 
 resource "docker_image" "nginx" {
-  name         = "ghcr.io/boghetim/assignment2-iot/forthehorde:sha-c3da33e"
+  name         = "ghcr.io/boghetim/assignment2-iot/forthehorde:sha-dc00574"
   keep_locally = false
 }
 
